@@ -19,6 +19,7 @@
 		880C705C1CFC2E1B00A45230 /* NotificationTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C705B1CFC2E1B00A45230 /* NotificationTestVC.m */; };
 		880C705F1CFC3F3A00A45230 /* TimerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C705E1CFC3F3A00A45230 /* TimerTestVC.m */; };
 		880C70621CFC7AC700A45230 /* DelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C70611CFC7AC700A45230 /* DelegateTest.m */; };
+		880C70651CFD984500A45230 /* KVOTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C70641CFD984500A45230 /* KVOTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		880C705E1CFC3F3A00A45230 /* TimerTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerTestVC.m; sourceTree = "<group>"; };
 		880C70601CFC7AC700A45230 /* DelegateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelegateTest.h; sourceTree = "<group>"; };
 		880C70611CFC7AC700A45230 /* DelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelegateTest.m; sourceTree = "<group>"; };
+		880C70631CFD984500A45230 /* KVOTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVOTest.h; sourceTree = "<group>"; };
+		880C70641CFD984500A45230 /* KVOTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVOTest.m; sourceTree = "<group>"; };
 		AE25CB0DCCCF31F94C83E7E4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8124241722D51B521C65A73 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +106,8 @@
 				880C705E1CFC3F3A00A45230 /* TimerTestVC.m */,
 				880C70601CFC7AC700A45230 /* DelegateTest.h */,
 				880C70611CFC7AC700A45230 /* DelegateTest.m */,
+				880C70631CFD984500A45230 /* KVOTest.h */,
+				880C70641CFD984500A45230 /* KVOTest.m */,
 				880C70421CFC177700A45230 /* Main.storyboard */,
 				880C70451CFC177700A45230 /* Assets.xcassets */,
 				880C70471CFC177700A45230 /* LaunchScreen.storyboard */,
@@ -251,6 +256,7 @@
 			files = (
 				880C70411CFC177700A45230 /* ViewController.m in Sources */,
 				880C703E1CFC177700A45230 /* AppDelegate.m in Sources */,
+				880C70651CFD984500A45230 /* KVOTest.m in Sources */,
 				880C703B1CFC177700A45230 /* main.m in Sources */,
 				880C70591CFC256600A45230 /* TapGestureTestVC.m in Sources */,
 				880C70621CFC7AC700A45230 /* DelegateTest.m in Sources */,

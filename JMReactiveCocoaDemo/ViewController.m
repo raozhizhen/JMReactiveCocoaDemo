@@ -36,6 +36,7 @@
     [self addCell:@"Notification" class:@"NotificationTestVC"];
     [self addCell:@"Timer" class:@"TimerTestVC"];
     [self addCell:@"Delegate" class:@"DelegateTest"];
+    [self addCell:@"KVO" class:@"KVOTest"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
